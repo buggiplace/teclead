@@ -19,7 +19,6 @@
   font-size: 22px;
 }
 
-
 .sticky-footer {
   background-color: var(--bg-card-dark);
   position:absolute;
@@ -34,7 +33,7 @@
   align-items: center;
   z-index: 1;
 }
-/* FOR TRANSITION EFFECT -> opacity needs to be defined! */
+
 .currently-playing-label, .selected-radio {
   opacity: 1;
   transition: all 0.5s ease;
