@@ -3,7 +3,6 @@ console.log("Hello TL!");
 
 
 const radioCards = document.querySelector(".radio-cards");
-const radioPlayer = document.getElementById("radio-player");
 const currentlyPlayingLabel = document.querySelector(
   ".currently-playing-label"
 );
@@ -36,7 +35,7 @@ const removeLastRuler = () => {
   lastRuler.parentElement.removeChild(lastRuler);
 };
 
-// RADIO CARDS CLICK LOGIC
+// Click logic
 const applyCardListeners = () => {
   const cards = document.querySelectorAll(".radio-card");
   const cardExtensions = document.querySelectorAll(".card-extend");
@@ -69,7 +68,7 @@ const applyCardListeners = () => {
 };
 
 
-//TL API
+//teclead api
 fetch("https://teclead.de/recruiting/radios")
 .then(resp => resp.json())
 .then(data => {
