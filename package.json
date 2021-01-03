@@ -1,0 +1,20 @@
+{
+  "name": "teclead",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "cssnano": "^4.1.10"
+  },
+  "staticFiles": {
+    "staticPath": "img",
+    "watcherGlob": "**"
+  }
+}

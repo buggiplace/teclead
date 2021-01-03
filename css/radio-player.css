@@ -1,0 +1,12 @@
+#radio-player {
+  position: relative;
+  margin: 0 auto;
+  width: 300px;
+  height: 480px;
+  background-color: var(--bg-card);
+  display: inline-block;
+  border-radius: 23px;
+  overflow: hidden;
+  transition: all 500ms ease;
+  box-shadow: 0px 20px 23px -1px rgba(0,0,0,0.8);
+}

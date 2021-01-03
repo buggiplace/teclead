@@ -1,0 +1,33 @@
+.sticky-footer {
+  background-color: var(--bg-card-dark);
+  position:absolute;
+  height: 79px;
+  bottom: 0;
+  width:100%;
+  left:0;
+  border-top: 2px solid #464650;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1; /* needed to overlay "card-text" class! */
+}
+/* FOR TRANSITION EFFECT -> opacity needs to be defined! */
+.currently-playing-label, .selected-radio {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+.currently-playing-label {
+  margin: 0;
+  font-size: 11px;
+  font-weight: bold;
+  color: var(--orange);
+}
+.selected-radio {
+  margin: 0;
+  font-size: 22px;
+  color: var(--white-blue);
+}
+
+
+/*# sourceMappingURL=/footer.3b27869a.css.map */

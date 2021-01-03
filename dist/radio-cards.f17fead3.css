@@ -1,0 +1,68 @@
+.radio-cards-parent {
+  height: 339px;
+  width: 100%;
+  overflow: hidden;
+}
+.radio-cards {
+  margin: 0 auto;
+  height: 100%;
+  margin-right:-60px; /* add 10 px back (see line 14) */
+  padding-right: 50px;
+  overflow-y: scroll;
+}
+
+.radio-card {
+  margin-left: 21px;
+  margin-right: 21px;
+}
+
+.radio-card:first-child {
+  margin-top: 10px;
+}
+
+.radio-card:last-child {
+  margin-bottom: 30px;
+}
+.radio-card p {
+  font-size: 22px;
+  margin: 0;
+  color: var(--white-blue);
+}
+.card-top {
+  height: 59px;
+  align-items: center;
+}
+.radio-title {
+  z-index: 1;
+}
+.radio-fq {
+  z-index: 1;
+}
+.card-top:hover .card-text {
+  color: white;
+  cursor: pointer;
+}
+.card-extend {
+  height: 164px;
+  transition: height 0.4s ease, opacity 0.25s linear 0.25s;
+}
+.card-extend.hidden {
+  opacity: 0;
+  height: 0px;
+  transition: height 0.4s ease 0.25s, opacity 0.25s linear;
+}
+
+.svg-width {
+ width: 27px;
+}
+
+img.radio-avatar {
+  width: 141px;
+  height: 141px;
+  border-radius: 50%;
+  border: 2.4px solid var(--white-blue);
+}
+
+
+
+/*# sourceMappingURL=/radio-cards.f17fead3.css.map */

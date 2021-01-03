@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+html {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+.transparent {
+  opacity: 0;
+  transition: all 1s ease;
+}
+.white {
+  color: white !important;
+}
+.hidden {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+:root {
+  --bg: #21212b;
+  --bg-card: #2f2f39;
+  --bg-card-dark: #22222a;
+  --orange: #EAAD58;
+  --white: #f6faf6;
+  --white-blue: #a3a7be;
+  --line: #606571;
+}
+body {
+  margin: 0 auto;
+  background-color: var(--bg);
+  color: white;
+  /*font-family: "Cerebri Regular";*/
+}
+hr {
+  margin: 0;
+  margin-left: 21px;
+  margin-right: 21px;
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  color: #3e404d; /* old IE */
+  background-color: #3e404d; /* Modern Browsers */
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+}
+/*a:hover {
+  font-weight: bold;
+}*/
+
+.main-container {
+  max-width: 800px;
+  height: 100vh;
+  margin: 0 auto;
+}
+.center {
+  text-align: center;
+}
+.justify {
+  text-align: justify;
+}
+.text-medium {
+  font-size: 16px;
+}
+.text-small {
+  font-size: 12px;
+}
+.primary-col {
+  color: slateblue;
+}
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-space-between {
+  justify-content: space-between;
+}
+.justify-space-around {
+  justify-content: space-around;
+}
+.align-center {
+  align-items: center;
+}
+.shadow-decent {
+  box-shadow: 0 0 10px grey;
+}
+
+
+/*# sourceMappingURL=/basics.63abb3c4.css.map */
