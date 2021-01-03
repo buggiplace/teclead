@@ -6,7 +6,7 @@
 .radio-cards {
   margin: 0 auto;
   height: 100%;
-  margin-right:-60px; /* add 10 px back (see line 14) */
+  margin-right:-60px;
   padding-right: 50px;
   overflow-y: scroll;
 }
