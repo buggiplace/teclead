@@ -3,7 +3,6 @@ console.log("Hello TL!");
 
 
 const radioCards = document.querySelector(".radio-cards");
-const bttnPower = document.getElementById("bttn-power");
 const radioPlayer = document.getElementById("radio-player");
 const currentlyPlayingLabel = document.querySelector(
   ".currently-playing-label"
